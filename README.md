@@ -1,1 +1,3 @@
 # studyHTML
+
+Testando conectividade.
