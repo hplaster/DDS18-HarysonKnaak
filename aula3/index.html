@@ -1,14 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
 </head>
+
 <body>
 
-    <h1>Formulário</h1>
+    <h1>Formulário de Input's</h1>
 
-    
+    <form>
+        <label for="email">Digite seu e-mail:</label>
+        <input type="email" name="email" placeholder="Digite seu e-mail..."><br><br>
+
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome..."><br><br>
+
+        <label for="senha">Digite sua senha:</label>
+        <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
+
+        <label for="dt_nascimento">Data de Nascimento:</label>
+        <input type="date" name="dt_nascimento">
+        <input type="datetime-local">
+        <input type="time"><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone"><br><br>
+
+        <label for="botao">Botão:</label>
+        <input type="button" name="botao" value="Clique Aqui"><br><br>
+
+        <label for="textao">Textão:</label>
+        <textarea name="textao" placeholder="Digite sua bio..."></textarea><br><br>
+
+        <label for="cor">Cor:</label>
+        <input type="color" name="cor"><br><br>
+
+        <label for="numero">Número:</label>
+        <input type="number" name="numero" step="5" min="0" max="100"><br><br>
+
+        <label for="range">Barrinha:</label>
+        0<input type="range" name="range" min="0" max="100" value="30">100<br><br>
+
+        <label for="escolha">Escolha seu Curso:</label><br>
+        <input type="radio" name="escolha" value="automacao">Automação
+        <input type="radio" name="escolha" value="eletrica">Elétrica
+        <input type="radio" name="escolha" value="dds" checked>DDS<br><br>
+
+        <label for="caixinha">Tecnologias:</label> <br>
+        <input type="checkbox" name="tec1" value="html"> HTML
+        <input type="checkbox" name="tec2" value="css"> CSS
+        <input type="checkbox" name="tec3" value="js"> JS
+        <input type="checkbox" name="tec4" value="python"> Python<br><br>
+        
+        <label for="heroi">Escolha seu Herói:</label>
+        <select name="heroi">
+            <option value="Batman">Batman</option>
+            <option value="Flash">Flash</option>
+            <option value="Kratos">Kratos</option>
+            <option value="Goku">Goku</option>
+        </select> <br><br>
+
+        <input type="reset">
+        <input type="submit" value="Enviar Formulário"><br><br>
+    </form>
+
 </body>
+
 </html>
