@@ -1,0 +1,55 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+}*/
+div{
+    background-color: blueviolet;
+}
+#vermelho{
+    background-color: red;
+}
+.caixa{
+    background-color: aqua;
+}
+#azul{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+.rosa{
+    background-color: rgb(230, 23, 122);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#primeira{
+    /* Um valor para TODOS os lados */
+    margin: 10px;
+
+    /* Um valor para CADA lado*/
+    margin: 20px 10px 15px 30px;
+
+    /* Um valor SEPARADO para CADA lado*/
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+#segunda{
+    /* Um valor para TODOS os lados */
+    padding: 10px;
+
+    /* Um valor para CADA lado*/
+    padding: px px px px;
+
+    /* Um valor SEPARADO para CADA lado*/
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+#terceira{
+    
+}
