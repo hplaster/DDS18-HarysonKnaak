@@ -1,0 +1,27 @@
+form{
+    padding-top: 9px;
+}
+
+.title-form1 {
+    margin-left: 15px;
+    background-color: white;
+    width: max-content;
+    position: fixed;
+}
+.box-form1 {
+    border: 1px black solid;
+    padding: 15px;
+}
+
+.title-form2 {
+    margin-left: 15px;
+    padding-top: 20px;
+    background-color: white;
+    width: max-content;
+    position: fixed;
+}
+.box-form2 {
+    border: 1px black solid;
+    padding: 15px;
+    margin-top: 29px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="margin-bottom: 10px;">Formulário</h1>
+
+    <div class="title-form1">
+        Dados Pessoais
+    </div>
+
+    <form action="">
+        <div class="box-form1">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome"><br><br>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco"><br><br>
+            
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade"><br><br>
+
+            <label for="estado">Estado:</label>
+            <select name="estado">
+                <option value="SP">São Paulo</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+        </div>
+
+        
+        <div class="title-form2">
+            Dados Profissionais
+        </div>
+        <div class="box-form2">
+            <label for="cargo">Natureza do Cargo:</label> <br>
+            <input type="radio" name="cargo" value="gerencia" checked>Gerência
+            <input type="radio" name="cargo" value="financeiro">Financeiro
+            <input type="radio" name="cargo" value="recepcao">Recepção
+            <input type="radio" name="cargo" value="administrativo">Administrativo
+            <input type="radio" name="cargo" value="juridico">Jurídico<br><br>
+
+            <label for="caixinha">Área de Interesse:</label> <br>
+            <input type="checkbox" name="interesse1" value="computacao"> Computação
+            <input type="checkbox" name="interesse2" value="biologia"> Biologia
+            <input type="checkbox" name="interesse3" value="meio-ambiente"> Meio Ambiente
+            <input type="checkbox" name="interesse4" value="engenharia"> Engenharia
+            <input type="checkbox" name="interesse5" value="historia"> História<br><br>
+
+            <label for="curriculinho">Mini-currículo:</label>
+            <textarea name="curriculinho"></textarea><br><br>
+        </div>
+
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+    
+</body>
+</html>
