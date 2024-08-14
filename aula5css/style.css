@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face{
+    font-family: "BungeeTint";
+    src: url('./BungeeTint-Regular.ttf');
+}
+
+body{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    background-color: bisque;
+}
+#naDireita{
+    text-align: right;
+}
+#noCentro{
+    text-align: center;
+}
+#justificado{
+    text-align: justify;
+}
+#maiusculo{
+    text-transform: uppercase;
+}
+#minusculo{
+    text-transform: lowercase;
+}
+#decorado{
+    text-decoration: overline underline line-through;
+}
+h1{
+    text-shadow: 2px 2px red;
+}
+#outraFonte{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#googleFonte{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: none;
+}
+#fonteBaixada{
+    font-family: BungeeTint, sans-serif;
+    text-align: justify;
+}
