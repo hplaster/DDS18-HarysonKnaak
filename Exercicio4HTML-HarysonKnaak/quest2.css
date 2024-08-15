@@ -1,7 +1,30 @@
 body{
     background-color: aqua;
-
+    margin: 0;
 }
 p{
     background-color: lawngreen;
+}
+.imagemFixadaFundo{
+    background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100px;
+}
+.imagemRepetidaVertical{
+    background-repeat: repeat-y;
+}
+.imagemNaoRepetida{
+
+}
+.imagemNaoRepetidaCentralizada{
+
+}
+.imagemNaoRepetidaCentralizada{
+    background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 80vw;
+    height: 100px;
 }
