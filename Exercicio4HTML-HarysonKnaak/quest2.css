@@ -9,34 +9,34 @@ p{
     background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
-    background-position: left;
     width: 100vw;
-    height: 100px;
+    height: 800px;
 }
 .imagemRepetidaVertical{
-    background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
+    background-image: url('https://miro.medium.com/v2/resize:fit:640/1*4MaZ7qFWbrvONJWAqX3oZA.jpeg');
     background-repeat: repeat-y;
     width: 100vw;
-    height: 100px;
+    height: 800px;
 }
 .imagemNaoRepetida{
-    background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAxLe5yIHdry18hXqkyUvbE7ZaCP32T2Q_NREbTlaWm0pJ1zwezy7fh6GgQXCGgVCefqM&usqp=CAU');
     background-repeat: no-repeat;
     width: 100vw;
     height: 100px;
 }
 .imagemNaoRepetidaCentralizada{
-    background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmTVpWYHe6bEdSrzkZSZfS06F-pldvkowxWw&s');
     background-repeat: no-repeat;
     background-position: center;
-    width: 80vw;
+    width: 100vw;
     height: 100px;
 }
 .imagemNaoRepetidaCentralizadaNaoFixada{
-    background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
+    background-color: yellow;
+    background-image: url('https://www.criacoescriativas.com.br/image/cache/catalog/conteudo/blog/van-gogh/criacoescriativas_Vincent_Van_Gogh-670x400h.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
-    width: 80vw;
-    height: 100px;
+    width: 100vw;
+    height: 500px;
 }
