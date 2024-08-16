@@ -9,22 +9,34 @@ p{
     background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
+    background-position: left;
     width: 100vw;
     height: 100px;
 }
 .imagemRepetidaVertical{
+    background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
     background-repeat: repeat-y;
+    width: 100vw;
+    height: 100px;
 }
 .imagemNaoRepetida{
-
-}
-.imagemNaoRepetidaCentralizada{
-
+    background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100px;
 }
 .imagemNaoRepetidaCentralizada{
     background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
     background-repeat: no-repeat;
-    align-items: center;
+    background-position: center;
+    width: 80vw;
+    height: 100px;
+}
+.imagemNaoRepetidaCentralizadaNaoFixada{
+    background-image: url('https://files.tecnoblog.net/wp-content/uploads/2022/09/stable-diffusion-imagem.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
     width: 80vw;
     height: 100px;
 }
