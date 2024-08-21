@@ -1,0 +1,18 @@
+.imgInvisivel{
+    display: none;
+}
+.img1{
+    background-image: url('https://raw.githubusercontent.com/gabrieldarezzo/helpjs-ravi/master/images/chara-1.png');
+    height: 32px;
+    width: 32px;
+}
+.img2{
+    background-image: url('https://raw.githubusercontent.com/gabrieldarezzo/helpjs-ravi/master/images/chara-2.png');
+    height: 32px;
+    width: 32px;
+}
+.img3{
+    background-image: url('https://raw.githubusercontent.com/gabrieldarezzo/helpjs-ravi/master/images/chara-3.png');
+    height: 32px;
+    width: 32px;
+}
