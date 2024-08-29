@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
-    Tela de Cadastro
+    <header>
+        <div id="headerBox">
+            <div>
+                <img src="img/logoSenaiAzul.png" alt="Logo Senai">
+                <a href="index.html">Início</a>
+                <a href="historia.html">Nossa História</a>
+            </div>
+
+            <a href="cadastro.html" id="boxUser">
+                <img src="img/iconUser.png" alt="Ícone de Usuário">
+                <p>Login, ou <br>Registre-se</p>
+            </a>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="nome">   Nome Completo</label>
+            <input class="boxtxt" type="text" id="nome" name="nome" placeholder="   Digite seu nome completo">
+        
+            <label for="endereco">   Endereço</label>
+            <input class="boxtxt" type="text" id="endereco" name="endereco" placeholder="   Digite seu endereço">
+        
+            <label for="dataNasc">   Data de Nascimento</label>
+            <input class="boxtxt" type="date" id="dataNasc" name="dataNasc" placeholder="">
+        
+            <label for="telefone">Telefone</label>
+            <input class="boxtxt" type="tel" id="telefone" name="telefone" placeholder="   Digite seu telefone">
+        
+            <label for="email">Email</label>
+            <input class="boxtxt" type="email" id="email" name="email" placeholder="   Digite seu E-mail">
+        
+            <label for="password">Senha</label>
+            <input class="boxtxt" type="password" id="senha" name="subject" placeholder="   Digite sua senha" required>
+        
+            <button id="botao">Proseguir</button>
+        </form>
+    </main>
+
 </body>
 </html>

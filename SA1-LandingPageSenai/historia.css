@@ -19,7 +19,7 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
-header div {
+header div div {
     display: flex;
     align-items: center;
 }
@@ -33,4 +33,21 @@ header div {
     display: flex;
     align-items: center;
     padding: 0;
+}
+
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+main div {
+    width: 95vw;
+    align-items: center;
+}
+main p {
+    text-align: justify;
+
 }
