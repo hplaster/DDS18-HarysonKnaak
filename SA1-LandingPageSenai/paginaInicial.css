@@ -6,7 +6,7 @@
 header {
     background-color: #2029AD;
     height: 100px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,8 +29,152 @@ header div {
     justify-content: space-between;
     width: 95vw;
 }
-#boxUser{
+#boxUser {
     display: flex;
     align-items: center;
     padding: 0;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+#containerMain {
+    margin: 20px 0 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+    justify-items: center;
+}
+.cardCourse {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.imgCourse {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.cardBox {
+    padding: 15px;
+    text-align: left;
+}
+.cardBox .iconsCardCourse {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.cardPrice {
+
+    color: #22498D;
+    text-align: end;
+}
+.cardPrice small {
+    display: block;
+    color: #777;
+}
+.cardButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #22498D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.cardButton:hover {
+    background-color: #0056b3;
+}
+
+/*----------------------------------------*/
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    background-color: #1b1eb5;
+    color: white;
+    padding: 40px 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footerLogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerLogos img {
+    max-width: 150px;
+    margin: 10px 0;
+}
+
+.footerSocial, .footerSAC {
+    padding: 0 20px;
+}
+
+.footerSocial h4, .footerSAC h4 {
+    margin-bottom: 15px;
+}
+
+.footerSocial p, .footerSAC p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footerSocial p img {
+    margin-right: 10px;
+}
+
+.footerSAC p img {
+    margin-right: 8px;
+}
+
+.footerCredits {
+    background-color: #0c244d;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footerLogos, .footerSocial, .footerSAC {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerSocial, .footerSAC {
+        padding: 0;
+    }
 }
