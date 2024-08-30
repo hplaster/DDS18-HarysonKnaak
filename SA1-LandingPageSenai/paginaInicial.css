@@ -39,11 +39,6 @@ header div div {
     align-items: center;
     padding: 0;
 }
-@media (max-width: 768px) {
-    #boxUser p {
-        display: none;
-    }
-}
 
 
 main {
@@ -186,5 +181,9 @@ footer a:hover {
 
     .footerSocial, .footerSAC {
         padding: 0;
+    }
+
+    #boxUser p {
+        display: none;
     }
 }
