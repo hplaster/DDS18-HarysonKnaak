@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 12 JS - DOM</title>
+</head>
+<body>
+    <!-- <h1>Título</h1>
+    <p>Parágrafo 1</p>
+    <p class="para">Parágrafo 2</p>
+    <p class="para" id="p3">Parágrafo 3</p> -->
+
+    <h1 id="clique" onclick="console.log('Cliquei no Título')">Clique aqui</h1>
+    <h1 id="clique2" onclick="bait()">Clique aqui 2 - O Retorno</h1>
+    <h1 id="clique3" onclick="console.log(this)">Clique aqui 3 - O Retorno do Retorno</h1>
+    Muda com outro foco
+    <input type="text" onchange="outroFoco()">
+    <br><br>
+    Muda quando digita
+    <input type="text" oninput="trocaTexto(this)">
+    <h1 id="textoParaTrocar">Texto aqui</h1>
+    <h1 id="textoTrocaCor" onmouseover="corVerde(this)" onmouseout="corAzul(this)">Texto troca / troca</h1>
+
+</body>
+<script src="script.js"></script>
+</html>

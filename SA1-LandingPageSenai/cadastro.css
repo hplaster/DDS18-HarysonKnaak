@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    overflow-x: hidden;
+}
 header {
     background-color: #2029AD;
     height: 100px;
@@ -10,6 +12,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 375px;
 }
 header a {
     color: white;
@@ -19,7 +22,7 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
-header div {
+header div div {
     display: flex;
     align-items: center;
 }
@@ -34,6 +37,11 @@ header div {
     align-items: center;
     padding: 0;
 }
+@media (max-width: 768px) {
+    #boxUser p {
+        display: none;
+    }
+}
 
 
 
@@ -46,9 +54,6 @@ header div {
 
 
 body{
-    background-color: #F2F2F2;
-    font-family: "Manrope", sans-serif;
-    font-style:normal;
     display:flex;
     flex-direction: column;
     justify-content: center;

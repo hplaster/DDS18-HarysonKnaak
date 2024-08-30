@@ -2,14 +2,19 @@
     margin: 0;
     padding: 0;
 }
+body {
+    overflow-x: hidden;
+}
+
 
 header {
     background-color: #2029AD;
     height: 100px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 375px;
 }
 header a {
     color: white;
@@ -19,7 +24,7 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
-header div {
+header div div {
     display: flex;
     align-items: center;
 }
@@ -29,10 +34,15 @@ header div {
     justify-content: space-between;
     width: 95vw;
 }
-#boxUser {
+#boxUser{
     display: flex;
     align-items: center;
     padding: 0;
+}
+@media (max-width: 768px) {
+    #boxUser p {
+        display: none;
+    }
 }
 
 
