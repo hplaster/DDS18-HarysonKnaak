@@ -21,31 +21,61 @@
             </a>
         </div>
     </header>
+    
     <main>
-        <form action="">
-            <h1>Cadastre-se</h1>
-            <h3>Para receber mais informações sobre cursos</h3>
-            <label for="nome">   Nome Completo</label>
-            <input class="boxtxt" type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
-        
-            <label for="endereco">   Endereço</label>
-            <input class="boxtxt" type="text" id="endereco" name="endereco" placeholder="Digite seu endereço">
-        
-            <label for="dataNasc">   Data de Nascimento</label>
-            <input class="boxtxt" type="date" id="dataNasc" name="dataNasc">
-        
-            <label for="telefone">Telefone</label>
-            <input class="boxtxt" type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone">
-        
-            <label for="email">Email</label>
-            <input class="boxtxt" type="email" id="email" name="email" placeholder="Digite seu E-mail">
-        
-            <label for="password">Senha</label>
-            <input class="boxtxt" type="password" id="senha" name="subject" placeholder="Digite sua senha" required>
-        
-            <button id="botao" type="submit">Proseguir</button>
-        </form>
+        <div class="container">
+            <div class="form-card">
+                <h1>Cadastre-se</h1>
+                <p>Para receber mais informações sobre cursos</p>
+                <form action="">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                    
+                    <label for="endereco">Endereço</label>
+                    <input type="text" id="endereco" placeholder="Digite seu endereço" required>
+                    
+                    <label for="data-nascimento">Data de Nascimento</label>
+                    <input type="date" id="data-nascimento" required>
+                    
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" placeholder="Digite seu telefone" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Digite seu E-mail" required>
+                    
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Digite sua senha" required>
+                    
+                    <button type="submit">Proseguir</button>
+                </form>
+            </div>
+        </div>
     </main>
 
+    <footer>
+        <div class="footerLogos">
+            <img src="img/logoFindesFooter.png" alt="Logo FINDES">
+            <img src="img/logoSenaiFooter.png" alt="Logo SENAI">
+        </div>
+
+        <div class="footerSocial">
+            <h4>Redes Sociais</h4>
+            <p><a href="https://www.facebook.com/SenaiES/?locale=pt_BR"><img src="img/iconFacebook.png" alt="Facebook"> /SenaiES</a></p>
+            <p><a href="https://www.instagram.com/senaies/"><img src="img/iconInstagram.png" alt="Instagram"> @senaies</a></p>
+            <p><a href="https://www.youtube.com/@SENAIES_Oficial"><img src="img/iconYouTube.png" alt="YouTube"> SENAI ES Oficial</a></p>
+        </div>
+
+        <div class="footerSAC">
+            <h4>SAC - Serviço de Atendimento ao Cliente</h4>
+            <p><img src="img/iconArroba.png" alt=""> Fale Conosco</p>
+            <p><img src="img/iconQuestion.png" alt=""> Perguntas Frequentes</p>
+            <p><img src="img/iconCall.png" alt=""> Telefone: 0800 102 0880</p>
+            <p><img src="img/iconClockFooter.png" alt=""> Horário de funcionamento: Segunda a Sexta-feira, das 7h às 19h. Exceto feriados nacionais e locais.</p>
+        </div>
+    </footer>
+
+    <div class="footerCredits">
+        <p>Developed by: Knaak - Todos os Direitos Reservados.</p>
+    </div>
 </body>
 </html>

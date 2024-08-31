@@ -39,68 +39,150 @@ header div div {
     align-items: center;
     padding: 0;
 }
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+.form-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.form-card h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+.form-card p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.form-card label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-size: 14px;
+}
+.form-card input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+.form-card input:focus {
+    border-color: #1b1eb5;
+    outline: none;
+    background-color: #fff;
+}
+.form-card button {
+    width: 100%;
+    padding: 12px;
+    background-color: #22498D;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.form-card button:hover {
+    background-color: #0a0c7b;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    background-color: #1b1eb5;
+    color: white;
+    padding: 40px 20px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footerLogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerLogos img {
+    max-width: 150px;
+    margin: 10px 0;
+}
+.footerSocial, .footerSAC {
+    padding: 0 20px;
+}
+.footerSocial h4, .footerSAC h4 {
+    margin-bottom: 15px;
+}
+.footerSocial p, .footerSAC p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    
+}
+.footerSocial p img {
+    margin-right: 10px;
+}
+.footerSAC p img {
+    margin-right: 8px;
+}
+.footerCredits {
+    background-color: #0c244d;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
 @media (max-width: 768px) {
+    footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footerLogos, .footerSocial, .footerSAC {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerSocial, .footerSAC {
+        padding: 0;
+    }
+
     #boxUser p {
         display: none;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-body{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: 1s;
-}
-.boxtxt{
-    width: 300px;
-    height: 44px;
-    border: none;
-    background-color: #c8baba4d;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#titulo{
-    color: #616161;
-    font-style: 800;
-    font-size: 45px;
-}
-#botao{
-    background-color: #c72c48;
-    color: #F2F2F2;
-    font-weight: 500;
-    font-size: 26px;
-    width: 323px;
-    height: 54px;
-    border-radius: 10px;
-    border: none;
-    transition: 500ms;
-    cursor: pointer;
-}
-#telatres{
-    font-family: "Manrope", sans-serif;
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-form{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
 }
