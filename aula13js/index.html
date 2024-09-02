@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 13 JS</title>
+    <title>Login Aula 13 JS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <div id="container">
+        <span class="material-symbols-outlined">
+            login
+        </span>
+        <h1>LOGIN</h1>
+        <form action="">
+            <input class="inputForm" type="text" placeholder="Usuário" id="inputUsuario">
+
+            <input class="inputForm" type="password" placeholder="Senha" id="inputSenha">
+
+            <input class="inputBotao" type="submit" value="Entrar" id="inputButton" onclick="logar()">
+        </form>
+        <p>Não possui conta? <a href="home.html">Cadastre-se</a></p>
+    </div>
+
 </body>
 <script src="script.js"></script>
 </html>
