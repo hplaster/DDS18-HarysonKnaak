@@ -42,14 +42,13 @@ header div div {
 
 
 
-/*---------------------------------------*/
 main {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
 }
 
-.course-container {
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -59,30 +58,26 @@ main {
     margin: 0 auto;
 }
 
-.course-info {
+.boxInfo {
     padding: 20px;
     flex: 1;
     min-width: 300px;
 }
-
-.course-info h1 {
+.boxInfo h1 {
     font-size: 32px;
     color: black;
     margin-bottom: 20px;
 }
-
-.course-section {
+.sectionInfo {
     margin-bottom: 20px;
 }
-
-.course-section h2 {
+.sectionInfo h2 {
     font-size: 20px;
     color: #333;
     margin-bottom: 10px;
     position: relative;
 }
-
-.course-section h2::after {
+.sectionInfo h2::after {
     content: '';
     display: block;
     width: 67px;
@@ -90,21 +85,17 @@ main {
     background-color: #22498D;
     margin-top: 2px;
 }
-
-.course-section p, .course-section ul {
+.sectionInfo p, .sectionInfo ul {
     font-size: 16px;
     color: black;
     line-height: 1.6;
     padding-left: 30px;
 }
-
-.course-section ul {
+.sectionInfo ul {
     padding-left: 61px;
 }
 
-
-
-.course-card {
+.cardCourse {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -112,13 +103,11 @@ main {
     flex: 1;
     min-width: 300px;
 }
-
-.course-card .course-header {
+.cardCourse .headerCard {
     position: relative;
     text-align: center;
 }
-
-.course-card .course-category {
+.cardCourse .categoryCourse {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -128,15 +117,13 @@ main {
     font-weight: bold;
     border-radius: 8px 0 8px 0;
 }
-
-.course-card img {
+.cardCourse img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
 }
-
-.course-card .course-button {
+.cardCourse .courseButtonA {
     padding: 10px 15px;
     background-color: #22498D;
     color: white;
@@ -145,7 +132,6 @@ main {
     cursor: pointer;
     margin-bottom: 20px;
 }
-
 #courseButtonB {
     padding: 10px 15px;
     background-color: #F5F5F5;
@@ -155,48 +141,40 @@ main {
     cursor: pointer;
     margin-bottom: 20px;
 }
-
-.course-details {
+.detailsCourse {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-.course-details div {
+.detailsCourse div {
     display: flex;
     align-items: center;
 }
-
-.course-details p {
+.detailsCourse p {
     color: black;
     margin-bottom: 10px;
     padding-left: 5px;
 }
-
-.course-details img {
+.detailsCourse img {
     width: 27px;
     height: 27px;
 }
-
-.course-price {
+.priceCourse {
     text-align: center;
     margin-top: 20px;
 }
-
-.course-price p {
+.priceCourse p {
     font-size: 24px;
     font-weight: 900;
     color: #22498D;
 }
-
-.course-price .small-text {
+.priceCourse .smallText {
     font-size: 12px;
     font-weight: normal;
     color: black;
     margin-top: 10px;
 }
-
-.enroll-button {
+.buttonCard {
     width: 100%;
     padding: 12px;
     background-color: #22498D;
@@ -208,8 +186,7 @@ main {
     margin-top: 10px;
     transition: background-color 0.3s ease;
 }
-
-.enroll-button:hover {
+.buttonCard:hover {
     background-color: #0a0c7b;
 }
 
@@ -278,6 +255,8 @@ footer a:hover {
     padding: 10px 20px;
 }
 
+
+
 @media (max-width: 768px) {
     footer {
         grid-template-columns: 1fr;
@@ -296,12 +275,12 @@ footer a:hover {
         padding: 0;
     }
 
-    .course-container {
+    .container {
         flex-direction: column;
         align-items: center;
     }
 
-    .course-info, .course-card {
+    .boxInfo, .cardCourse {
         max-width: 90%;
     }
 
